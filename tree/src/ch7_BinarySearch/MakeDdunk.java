@@ -48,7 +48,7 @@ public class MakeDdunk {
 
         // 이진 탐색을 위한 시작점과 끝점 설정
         int start = 0;
-        int end = (int) 1e9;
+        int end = (int) 1e9; // 10^9
         // 이진 탐색 수행 (반복적)
         int result = 0;
         while (start <= end) {
